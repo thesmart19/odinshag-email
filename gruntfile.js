@@ -19,6 +19,7 @@ module.exports = function (grunt) {
                 files: [
                     // общие файлы
                     { src: 'source/templates/mailing/images/header-stripe.png',             dest: 'build/images/temp/header-stripe.png' },
+                    { src: 'source/templates/mailing/images/notification.png',              dest: 'build/images/temp/notification.png' },
                     { src: 'source/templates/mailing/images/notification-mailing.png',      dest: 'build/images/temp/notification-mailing.png' },
                     { src: 'source/templates/mailing/images/logo.png',                      dest: 'build/images/temp/logo.png' },
                     { src: 'source/templates/mailing/images/attention.png',                 dest: 'build/images/temp/attention.png' },
@@ -36,7 +37,8 @@ module.exports = function (grunt) {
                     { src: 'source/templates/mailing/images/shadow-top-left.png',           dest: 'build/images/temp/shadow-top-left.png' },
                     { src: 'source/templates/mailing/images/shadow-top-right.png',          dest: 'build/images/temp/shadow-top-right.png' },
                     // файлы для рассылки
-                    { src: 'source/templates/mailing/images/banner.png',   dest: 'build/images/temp/banner.png' }
+                    { src: 'source/templates/mailing/images/banner.png',        dest: 'build/images/temp/banner.png' },
+                    { src: 'source/templates/mailing/images/100-products.png',  dest: 'build/images/temp/100-products.png' }
                 ]
             }
         },
