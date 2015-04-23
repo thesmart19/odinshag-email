@@ -6,7 +6,7 @@ module.exports = function (grunt) {
             // mailing - задача сборки почтовой рассылки
             mailing: {
                 options: {
-                    pretty: true
+                    pretty: '\t'
                 },
                 files: {
                     "build/index.html": ["source/templates/mailing/mailing.jade"],
