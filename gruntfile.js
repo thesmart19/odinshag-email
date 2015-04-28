@@ -37,8 +37,15 @@ module.exports = function (grunt) {
                     { src: 'source/templates/mailing/images/shadow-top-left.png',           dest: 'build/images/temp/shadow-top-left.png' },
                     { src: 'source/templates/mailing/images/shadow-top-right.png',          dest: 'build/images/temp/shadow-top-right.png' },
                     // файлы для рассылки
-                    { src: 'source/templates/mailing/images/banner.png',        dest: 'build/images/temp/banner.png' },
-                    { src: 'source/templates/mailing/images/100-products.png',  dest: 'build/images/temp/100-products.png' }
+                    { src: 'source/templates/mailing/images/banner.png',                    dest: 'build/images/temp/banner.png' },
+                    { src: 'source/templates/mailing/images/100-products.png',              dest: 'build/images/temp/100-products.png' },
+                    { src: 'source/templates/mailing/images/button-agree.png',              dest: 'build/images/temp/button-agree.png' },
+                    { src: 'source/templates/mailing/images/banner-part-right.jpg',         dest: 'build/images/temp/banner-part-right.jpg' },
+                    { src: 'source/templates/mailing/images/banner-part-left-top.jpg',      dest: 'build/images/temp/banner-part-left-top.jpg' },
+                    { src: 'source/templates/mailing/images/banner-part-left-bottom.jpg',   dest: 'build/images/temp/banner-part-left-bottom.jpg' },
+                    { src: 'source/templates/mailing/images/banner-part-left-center-left.jpg',      dest: 'build/images/temp/banner-part-left-center-left.jpg' },
+                    { src: 'source/templates/mailing/images/banner-part-left-center-right.jpg',     dest: 'build/images/temp/banner-part-left-center-right.jpg' },
+                    { src: 'source/templates/mailing/images/banner-part-left-center-center.jpg',    dest: 'build/images/temp/banner-part-left-center-center.jpg' }
                 ]
             }
         },
@@ -47,7 +54,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: 'build/images/temp/',
-                    src: ['*.png'],
+                    src: ['*.png', '*.jpg'],
                     dest: 'build/images/'
                 }]
             }
