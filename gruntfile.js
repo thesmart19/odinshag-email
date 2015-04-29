@@ -10,7 +10,7 @@ module.exports = function (grunt) {
                 },
                 files: {
                     "build/index.html": ["source/templates/mailing/mailing.jade"],
-                    "build/content.html": ["source/content/content-mailing.jade"]
+                    "build/content.html": ["source/content/content-test-successful-discounts.jade"]
                 }
             }
         },
